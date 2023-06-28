@@ -24,19 +24,19 @@ Please enter a Number:_
 Также реализованы тесты на базе Unittest и Click.testing
 ## __Как установить__
 Репозиторий GitHub следует клонировать и перейти в директорий:
-$ git clone https://github.com/tr2023GitHub/project-FizzBuzz.git
-$ cd project-FizzBuzz
+`$ git clone https://github.com/tr2023GitHub/project-FizzBuzz.git`
+`$ cd project-FizzBuzz`
 
 ## __Запуск утилиты__
 Откройте командную строку и выполните следующее:
 
-$ python fizzbuzz_code_cli.py
+`$ python fizzbuzz_code_cli.py`
 
 ### Программа начнётся с приветсвия и предложит ввести значение: ###
 ![image](https://github.com/tr2023GitHub/project-FizzBuzz/assets/130790937/0157a30d-0e49-43f9-9713-6a6540700e94)
 
 
-$ python fizzbuzz_code_cli.py --number=5
+`$ python fizzbuzz_code_cli.py --number=5`
 
 ### Программа выдаст сразу результат и предложит вводить следующее значение: ###
 ![image](https://github.com/tr2023GitHub/project-FizzBuzz/assets/130790937/40ca1f49-06b9-495f-9d1a-c84eb4d4a07f)
@@ -48,14 +48,14 @@ $ python fizzbuzz_code_cli.py --number=5
 ![image](https://github.com/tr2023GitHub/project-FizzBuzz/assets/130790937/51219a77-6e06-49e9-bde1-506741ef0195)
 
 ## __Вывод справки утилиты CLI__
-$ python fizzbuzz_code_cli.py –help
+`$ python fizzbuzz_code_cli.py –help`
 
 ![image](https://github.com/tr2023GitHub/project-FizzBuzz/assets/130790937/6431c179-19fd-4b03-8634-48f0f09e4a5c)
 
 ## __Тестирование__
 Откройте командную строку и выполните следующее:
 
-$ pytest -v test_fizzbuzz_cli.py 
+`$ pytest -v test_fizzbuzz_cli.py` 
 
 ### При успешном тестирование выводиться: ###
 ![image](https://github.com/tr2023GitHub/project-FizzBuzz/assets/130790937/8e7ce829-c9fd-4546-b139-0fcfee50510c)
