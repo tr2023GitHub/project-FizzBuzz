@@ -50,7 +50,7 @@ _Please enter a Number:_
 ![image](https://github.com/tr2023GitHub/project-FizzBuzz/assets/130790937/51219a77-6e06-49e9-bde1-506741ef0195)
 
 ## __Вывод справки утилиты CLI__
-`$ python fizzbuzz_code_cli.py –help`
+`$ python fizzbuzz_code_cli.py -–help`
 
 ![image](https://github.com/tr2023GitHub/project-FizzBuzz/assets/130790937/6431c179-19fd-4b03-8634-48f0f09e4a5c)
 
