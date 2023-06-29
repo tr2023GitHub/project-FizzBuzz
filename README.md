@@ -2,29 +2,31 @@
 Тестовое задание для ментора (Hexlet)
 
 ## __Задача FizzBuzz на Python__
-При запуске программы запрашивать число у пользователя
+При запуске программы запрашивает число у пользователя
 и выдается ответ - Fizz, Buzz, FizzBuzz или число.
-Запуск приложения выводит приветствие и спрашивает число:
+Запуск приложения выводит приветствие и просит ввести число:
 
 _Welcome to Fizz Buzz !_
 
-_Submit a number and get an answer!_
+_Submit a number and get an answer! Number 0 - Stop process!_
 
-_Number 0 - Stop process!_
+_Please enter a Number:_
 
-Please enter a Number:_
 На каждый ввод числа ( ввод чисел происходит, пока пользователь не введет число 0 ) вместо чисел, кратных трем, программа выводить слово «Fizz»,
 а вместо чисел, кратных пяти — слово «Buzz».
-Если число кратно и 3, и 5, то программа выводить слово «FizzBuzz»"
+Если число кратно и 3, и 5, то программа выводить слово «FizzBuzz»".
 В остальных случаях - само число.
+
 ![image](https://github.com/tr2023GitHub/project-FizzBuzz/assets/130790937/68a32b86-e80f-490b-b876-1e01ae648b2d)
 
 Эта задача реализована на Python 3.11.2 в виде консольной утилиты CLI с помощью Click.
 
-Также реализованы тесты на базе Unittest и Click.testing
+Также реализованы тесты на базе Unittest и Click.testing.
 ## __Как установить__
 Репозиторий GitHub следует клонировать и перейти в директорий:
+
 `$ git clone https://github.com/tr2023GitHub/project-FizzBuzz.git`
+
 `$ cd project-FizzBuzz`
 
 ## __Запуск утилиты__
